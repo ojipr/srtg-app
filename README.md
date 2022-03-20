@@ -1,3 +1,25 @@
+# wordpressのヘッドレス化
+
+## やりたいこと
+```mermaid
+graph LR
+    WordPress==API==>Gatsby
+    Gatsby--ShowPage-->User
+    subgraph XserverSTG
+        editor--write&edit-->WordPress
+    end
+    subgraph Netlify
+        Gatsby
+    end
+    subgraph Browser
+        User
+    end
+```
+
+## テストサイト
+
+https://necowitch.com/news
+
 # Gatsby v2 WordPress Starter
 
 This starter is forked from the
