@@ -20,6 +20,10 @@ graph LR
 
 https://necowitch.com/news
 
+  ↓
+
+https://lucent-blancmange-38a878.netlify.app/
+
 # Gatsby v2 WordPress Starter
 
 This starter is forked from the
